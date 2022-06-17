@@ -6,7 +6,8 @@
 
 :root {
     --outline-color: #8d8def;
-    --background_color:#031b38;
+    /* --background_color:#031b38; */
+    --background_color:#04162b;
     --text_color: #ffffff;
     --button_background_color: 35deg, rgb(126,208,255)0%, rgb(155,81,224)100%;
     --button_background_color_hover: 35deg, rgb(126,208,255)0%, rgb(247,113,255)100%;
