@@ -232,10 +232,6 @@ p {
     .text > h1 {
         line-height: 4.6rem;
     }
-    .text {
-        position: relative;
-        top: -40px;
-    }
 }
 @media screen and (max-width: 540px){
     .wrapper {
