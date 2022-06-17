@@ -63,7 +63,7 @@ document.getElementById("about_btn").addEventListener("click", goToAboutPage);
 function goToHomePage() {
       window.location.href="/index.html";
     }
-document.getElementById("register_btn_nav").addEventListener("click", goToAboutPage);
-    function goToAboutPage() {
-      window.location.href="/registration-form.html";
+document.getElementById("register_btn_nav").addEventListener("click", goToRegisterPage);
+    function goToRegisterPage() {
+      window.location.href="registration-form.html";
     }
