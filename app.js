@@ -52,10 +52,12 @@ function scrollFunction() {
     scrollTopButton.style.display = "none";
   }
 }
+
 function topFunction() {
   document.body.scrollTop = 0; // For Safari
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
+
 //---------------------------------------------------Link Buttons to Pages-----------------------------------------
 
 document.getElementById("about_btn").addEventListener("click", goToAboutPage);

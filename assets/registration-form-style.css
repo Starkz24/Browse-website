@@ -7,8 +7,8 @@
 }
 :root {
     --outline-color: #8d8def;
-    --background_color:#031b38;
-    --text_color: #ffffff;
+    --background_color:#04162b;
+    --text_color: #cdcdcd;
     --button_background_color: 35deg, rgb(126,208,255)0%, rgb(155,81,224)100%;
     --button_background_color_hover: 35deg, rgb(126,208,255)0%, rgb(247,113,255)100%;
     --box_shadow_1: 0px 5px 10px 0px rgba(0, 0, 0, 1);
@@ -41,7 +41,7 @@ label {
 .container{
   max-width: 490px;
   width: 100%;
-  background-color: #042042;
+  background-color: #092545;
   padding: 25px 30px;
   border-radius: 5px;
   box-shadow: var(--box_shadow_2);
