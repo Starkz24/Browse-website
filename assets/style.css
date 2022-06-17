@@ -235,7 +235,7 @@ body {
     padding: 0;
     margin: 0;
     color: var(--text_color);
-    font-family: sans-serif;
+    font-family: 'Roboto Mono', monospace;
     margin-bottom: 10px;
     background: -webkit-linear-gradient(35deg, rgb(126,208,255)0%, rgb(155,81,224)100%);
     -webkit-background-clip: text;
@@ -356,7 +356,7 @@ body {
     transition: ease all .5s;
     overflow: hidden;
     transition: ease all .5s;
-
+    font-family: 'Montserrat', sans-serif;
 }
 .event_image{
     width: 40%;
@@ -374,7 +374,7 @@ body {
     transition: ease all .5s;
 }
 .event_organiser_tag > span{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto Mono', monospace;
     font-size: 0.86rem;
     font-weight: 700;
     color: var(--orange);
@@ -382,7 +382,7 @@ body {
     cursor: pointer;
 }
 .event_description > h1{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto Mono', monospace;
     font-weight: 700;
     font-size: 2.5rem;
     padding: 0;
@@ -692,9 +692,6 @@ body {
     }
 }
 @media screen and (max-width: 795px){
-    .faculty_3_box {
-        
-    }
     #faculty_container {
         grid-template-columns: 1fr;
         grid-template-rows:6px 1fr 1fr ;
@@ -753,4 +750,7 @@ body {
     .wrapper {
         width: 90vw;
     }
+}
+button {
+    color: #fff !important;
 }
