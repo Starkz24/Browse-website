@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1">
+    <link rel="stylesheet" type="text/css" rel="noopener" target="_blank" href="./assets/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap" rel="stylesheet">  
+    <title>Browse | About</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="navbar">
+            <div class="browse_logo">
+                <span onclick="goToHomePage();">BROWSE</span>
+            </div>
+            <div id="navbar_button_box_desktop">
+                <button type="button" class="menu_button" id="about_btn">About</button>
+                <button type="button" class="menu_button" id="events_btn">Events</button>
+                <button type="button" class="menu_button" id="contact_btn">Contact</button>
+                <button type="button" class="register_button gradient_button" id="register_btn_nav">Register</button>
+            </div>
+        </div>
+
+        <h1 id="organised_by_header">Organised by</h1>
+        
+        <section class="section_1_about">
+            <div class="departments_container">
+                <div class="cse_dep_box department_box">
+                    <div class="department_img"></div>
+                    <div class="department_name">Department of Computer Science and Engineering</div>
+                </div>
+                <div class="ise_dep_box department_box">
+                    <div class="department_img"></div>
+                    <div class="department_name">Department of Information Science and Engineering</div>
+                </div>
+                <div class="mca_dep_box department_box">
+                    <div class="department_img"></div>
+                    <div class="department_name">Master of Computer Application</div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section_2_about">
+            <div class="sit_logo_img"></div>
+            <h1 id="sit">Siddaganga Institute Of Technology</h1>
+            <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3882.3755737218844!2d77.12390611475944!3d13.326897890623469!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bb02e826fb691ef%3A0xe78608813c36f380!2sSiddaganga%20Institute%20Of%20Technology!5e0!3m2!1sen!2sin!4v1655443131208!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div id="location_pin_animation">
+                <script src="https://cdn.lordicon.com/xdjxvujz.js"></script>
+                <lord-icon
+                    src="https://cdn.lordicon.com/zzcjjxew.json"
+                    trigger="loop"
+                    colors="primary:#fff,secondary:#fff"
+                    state="loop-spin"
+                    style="width:70px;height:70px">
+                </lord-icon>
+            </div>
+        </section>
+
+        <section class="section_3_about">
+            <div id="faculty_container">
+                <div class="faculty_1_box faculty_box" id="president_box"><a>PRESIDENT</a><br><br>Dr. A. S. Poornima<br>Professor and Head Of Department<br>CSE</div>
+                <div class="faculty_2_box faculty_box" id="coordinator_box">
+                    <a>CO-ORDINATORS</a><br><br>Dr. R. Aparna<br>Professor and Head Of Department<br>ISE<br><br>Dr. B. G. Premasudha<br>Professor and Head Of Department<br>MCA
+                </div>
+                <div class="faculty_3_box faculty box" id="blank_box"></div>
+            </div>
+        </section>
+
+    </div>
+
+    <div class="scroll_to_top" id="scroll_to_top_btn" onclick="topFunction()" title="Go to top">
+        <script src="https://cdn.lordicon.com/xdjxvujz.js"></script>
+        <lord-icon
+        src="https://cdn.lordicon.com/eflfmgmj.json"
+        trigger="hover"
+        colors="primary:#84b3f8"
+        style="width:50px;height:50px; border-radius: 100vw;box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 1);">
+        </lord-icon>
+    </div>
+
+    <div class="footer">
+        <h3 class="team_sark">Developed by <a>Team SARK</a></h3>
+    </div>
+</body>
+</html>
+
+<script src="./app.js"></script>

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1">
+    <link rel="stylesheet" type="text/css" rel="noopener" target="_blank" href="./assets/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap" rel="stylesheet">  
+    <title>Browse 2K22 | Home</title>
+</head>
+<body>
+    
+    <div class="wrapper">
+
+        <div class="navbar">
+            <div class="browse_logo">
+                <span onclick="goToHomePage();">BROWSE</span>
+            </div>
+            <div id="navbar_button_box_desktop">
+                <button type="button" class="menu_button" id="about_btn">About</button>
+                <button type="button" class="menu_button" id="events_btn">Events</button>
+                <button type="button" class="menu_button" id="contact_btn">Contact</button>
+                <button type="button" class="register_button gradient_button" id="register_btn_nav">Register</button>
+            </div>
+        </div>
+
+        <div class="section_1 landing_display">
+            <h1 class="section_1_header">Technical<br>Symposium</h1>
+            <p>of CSE, ISE and MCA</p>
+            <div class="illustration_1"><img class="animated" src="./assets/hero-img.png" alt="Illustration" style="height: 550px;"></div>
+
+            <div class="container_countdown">
+                <h1 id="headline_countdown">Event starts in:</h1>
+                <div id="countdown"> 
+                    <div class="countdown_element" ><span id="days"></span><br>Days</div>
+                    <div class="countdown_element countdown_element_next_line" ><span id="hours"></span><br>Hours</div>
+                    <div class="countdown_element" ><span id="minutes"></span><br>Minutes</div>
+                    <div class="countdown_element" ><span id="seconds"></span><br>Seconds</div>
+                </div>
+              </div>
+        </div>
+
+        <div class="section_2 events_list_display">
+            <h1 class="events section_2_header">EVENTS</h1>
+
+            <!--EVENT_1-->
+            <div class="event_box" id="event_box_1"> 
+                <div class="event_image" id="event_image_1"></div>
+                <div class="event_description" id="event_description_1">
+                    <h1>Event One</h1>
+                    <div class="event_organiser_tag" id="event_organiser_1">
+                        <span>-by TEAM SARK</span>
+                    </div>
+                    <p> It is a quiz contest between different teams on topics of technology, programming and technical aspects.<br>Register in members of 2 per Team to enter in the contest and win the prizes</p>
+                    <button type="button" class="know_more_button gradient_button">Know More</button>
+                </div>
+            </div>
+
+            <!--EVENT_2-->
+            <div class="event_box" id="event_box_2"> 
+                <div class="event_image" id="event_image_2_upper"></div>
+                <div class="event_description" id="event_description_2">
+                    <h1>Event Two</h1>
+                    <div class="event_organiser_tag" id="event_organiser_2">
+                        <span>-by TEAM SARK</span>
+                    </div>
+                    <p> It is a quiz contest between different teams on topics of technology, programming and technical aspects.<br>Register in members of 2 per Team to enter in the contest and win the prizes</p>
+                    <button type="button" class="know_more_button gradient_button">Know More</button>
+                </div>
+                <div class="event_image" id="event_image_2"></div>
+            </div>
+
+            <!--EVENT_3-->
+            <div class="event_box" id="event_box_3"> 
+                <div class="event_image" id="event_image_3"></div>
+                <div class="event_description" id="event_description_3">
+                    <h1>Event Three</h1>
+                    <div class="event_organiser_tag" id="event_organiser_3">
+                        <span>-by TEAM SARK</span>
+                    </div>
+                    <p> It is a quiz contest between different teams on topics of technology, programming and technical aspects.<br>Register in members of 2 per Team to enter in the contest and win the prizes</p>
+                    <button type="button" class="know_more_button gradient_button">Know More</button>
+                </div>
+            </div>
+
+            <!--EVENT_4-->
+            <div class="event_box" id="event_box_4"> 
+                <div class="event_image" id="event_image_4_upper"></div>
+                <div class="event_description" id="event_description_4">
+                    <h1>Event Four</h1>
+                    <div class="event_organiser_tag" id="event_organiser_4">
+                        <span>-by TEAM SARK</span>
+                    </div>
+                    <p> It is a quiz contest between different teams on topics of technology, programming and technical aspects.<br>Register in members of 2 per Team to enter in the contest and win the prizes</p>
+                    <button type="button" class="know_more_button gradient_button">Know More</button>
+                </div>
+                <div class="event_image" id="event_image_4"></div>
+            </div>
+
+            <!--EVENT_5-->
+            <div class="event_box" id="event_box_5"> 
+                <div class="event_image" id="event_image_5"></div>
+                <div class="event_description" id="event_description_5">
+                    <h1>Event Five</h1>
+                    <div class="event_organiser_tag" id="event_organiser_5">
+                        <span>-by TEAM SARK</span>
+                    </div>
+                    <p> It is a quiz contest between different teams on topics of technology, programming and technical aspects.<br>Register in members of 2 per Team to enter in the contest and win the prizes</p>
+                    <button type="button" class="know_more_button gradient_button">Know More</button>
+                </div>
+            </div>
+
+            <!--EVENT_6-->
+            <div class="event_box" id="event_box_6"> 
+                <div class="event_image" id="event_image_6_upper"></div>
+                <div class="event_description" id="event_description_6">
+                    <h1>Event Six</h1>
+                    <div class="event_organiser_tag" id="event_organiser_6">
+                        <span>-by TEAM SARK</span>
+                    </div>
+                    <p> It is a quiz contest between different teams on topics of technology, programming and technical aspects.<br>Register in members of 2 per Team to enter in the contest and win the prizes</p>
+                    <button type="button" class="know_more_button gradient_button">Know More</button>
+                </div>
+                <div class="event_image" id="event_image_6"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="scroll_to_top" id="scroll_to_top_btn" onclick="topFunction()" title="Go to top">
+        <script src="https://cdn.lordicon.com/xdjxvujz.js"></script>
+        <lord-icon
+        src="https://cdn.lordicon.com/eflfmgmj.json"
+        trigger="hover"
+        colors="primary:#84b3f8"
+        style="width:50px;height:50px; border-radius: 100vw;box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 1);">
+        </lord-icon>
+    </div>
+
+    <div class="footer">
+        <h3 class="team_sark">Developed by <a>Team SARK</a></h3>
+    </div>
+</body>
+</html>
+
+<script src="./app.js"></script>
