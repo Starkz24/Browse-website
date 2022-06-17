@@ -51,6 +51,7 @@ body {
     width:145px;
     height: fit-content;
     margin-right: calc(100% - 145px - 420px);
+    z-index: 102;
 }
 .browse_logo > span {
     color: var(--text_color);
@@ -58,6 +59,7 @@ body {
     font-family: 'robo';
     cursor: pointer;
     letter-spacing: .2rem;
+    z-index: 103;
 }
 #navbar_button_box_desktop {
     position: relative;
