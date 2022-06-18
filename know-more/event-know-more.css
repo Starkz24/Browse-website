@@ -191,10 +191,23 @@ b {
     background-clip: text;
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
+    font-size: 22px;
 }
 p {
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
+}
+@media screen and (max-width: 450px){
+    .text > h1 {
+        margin-top: 20px;
+        font-size: 3.2em;
+    }
+    b {
+        font-size: 17px;
+    }
+    p {
+        font-size: 16px;
+    }
 }
 .text > button {
     margin-left: 0px;
