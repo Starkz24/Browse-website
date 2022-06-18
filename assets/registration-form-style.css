@@ -21,6 +21,7 @@ body{
   align-items: center;
   padding: 10px;
   background: var(--background_color);
+  -webkit-tap-highlight-color: transparent;
 }
 label {
     color: var(--text_color);
