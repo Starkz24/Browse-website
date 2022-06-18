@@ -866,7 +866,8 @@ button {
 
 .menu-wrap .toggler:checked ~ .menu > div {
   transform: scale(1.5);
-  transition-duration: .75s;
+  /* transition-duration: .75s; */
+  transition: transform ease 1s;
 }
 
 .menu-wrap .toggler:checked ~ .menu > div > div {
