@@ -749,6 +749,7 @@ body {
 .team_sark > a {
     cursor: pointer;
     background: -webkit-linear-gradient(35deg, rgb(126,208,255)0%, rgb(155,81,224)100%);
+    text-decoration: none;
     -webkit-background-clip: text;
     background-clip: text;
     -moz-background-clip: text;
