@@ -213,6 +213,9 @@ p {
 .text > button {
     margin-left: 0px;
 }
+.globe {
+    padding-bottom: 5px;
+}
 
 .scroll_to_top {
     display: block;

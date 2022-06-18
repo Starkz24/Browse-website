@@ -45,7 +45,6 @@ body {
     z-index: 100;
     align-items: center;
 }
-
 .browse_logo {
     /* overflow: hidden; */
     position: relative;
@@ -670,6 +669,9 @@ body {
 @media screen and (max-width: 450px){
     #sit {
         font-size: 1.2em;
+    }
+    .globe {
+        padding-bottom: 5px;
     }
 }
 #map {
