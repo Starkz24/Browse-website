@@ -43,16 +43,17 @@ body {
     padding-top: 13px;
     margin-bottom: 80px;
     z-index: 100;
+    align-items: center;
 }
 
 .browse_logo {
     /* overflow: hidden; */
     position: relative;
-    padding-top: 10px;
+    padding-top: 0px;
     width:145px;
     height: fit-content;
     margin-right: calc(100% - 145px - 420px);
-    z-index: 102;
+    z-index: 103;
 }
 .browse_logo > span {
     color: var(--text_color);
