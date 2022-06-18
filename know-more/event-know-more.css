@@ -122,7 +122,7 @@ body {
     .menu_button {
         display: none;
     }
-    .register_button{
+    #register_btn_nav {
         position: fixed;
         right: 12vw;
         margin-left: 0px;
