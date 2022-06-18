@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1">
     <link rel="stylesheet" type="text/css" rel="noopener" target="_blank" href="./assets/registration-form-style.css">
+    <link rel="stylesheet" type="text/css" rel="noopener" target="_blank" href="./assets/style.css">
+
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap" rel="stylesheet">  
     <title>Browse | Register</title>
@@ -11,6 +13,35 @@
 </head>
 <body>
     <div class="container">
+
+      <div class="navbar">
+        <div class="browse_logo">
+            <span onclick="goToHomePage();">BROWSE</span>
+        </div>
+        <div id="navbar_button_box_desktop">
+            <button type="button" class="menu_button" id="about_btn">About</button>
+            <button type="button" class="menu_button" id="events_btn">Events</button>
+            <button type="button" class="menu_button" id="contact_btn">Contact</button>
+            <button type="button" class="register_button gradient_button" id="register_btn_nav">Register</button>
+        </div>
+    </div>
+    <div class="menu-wrap">
+        <input type="checkbox" class="toggler" id="menu_toggler">
+        <div class="hamburger"><div></div></div>
+        <div class="menu">
+          <div>
+            <div class="menu_circle">
+              <ul>
+                <li><a href="/registration-form.html">Register</a></li>
+                <li><a href="/about-page.html">About</a></li>
+                <li><a href="/events_page.html">Events</a></li>
+                <li><a href="#">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+    </div>
+
         <div class="title">Registration</div>
         <div class="content">
           <form action="https://gmail.us4.list-manage.com/subscribe/post?u=5415ad50ca20dd94a8d0798ab&amp;id=e77a9584d8" method="post">
@@ -56,3 +87,5 @@
     
 </body>
 </html>
+
+<script src="./app.js"></script>

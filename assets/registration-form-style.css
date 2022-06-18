@@ -41,15 +41,14 @@ label {
 .container{
   max-width: 490px;
   width: 100%;
-  background-color: #092545;
+  background-color: var(--background_color);
   padding: 25px 30px;
   border-radius: 5px;
-  box-shadow: var(--box_shadow_2);
 }
 input[type=text],
 input[type=number],
 input[type=email] {
-    background-color: #042042;
+    background-color: var(--background_color);
     color: var(--text_color);
     box-shadow: inset 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
 }
