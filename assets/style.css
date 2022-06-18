@@ -43,12 +43,13 @@ body {
     padding-top: 13px;
     margin-bottom: 80px;
     z-index: 100;
+    align-items: center;
 }
 
 .browse_logo {
     /* overflow: hidden; */
     position: relative;
-    padding-top: 10px;
+    padding-top: 0px;
     width:145px;
     height: fit-content;
     margin-right: calc(100% - 145px - 420px);
@@ -822,7 +823,7 @@ button {
 .menu-wrap {
     display: none;
     position: fixed;
-    top: 10.5px;
+    top: 16.5px;
     left: calc(100vw - 50px - 30px);
     z-index: 1;
   }
