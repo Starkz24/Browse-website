@@ -356,7 +356,7 @@ body {
     flex-wrap: wrap;
     background-image: url(https://i0.wp.com/css-tricks.com/wp-content/uploads/2022/03/tailwind-wordpress.jpg?w=1200&ssl=1);
     background-size: cover;
-    background-position: -390px;
+    background-position: -310px;
     border-radius: 8px;
     align-items: center;
     color: var(--text_color);
@@ -366,6 +366,23 @@ body {
     overflow: hidden;
     transition: ease all .5s;
     font-family: 'Montserrat', sans-serif;
+}
+#event_box_1 {
+    background-image: url(./event-1-img.jpg);
+    background-size: 1000px;
+    background-position: -150px -20px;
+}
+#event_box_2 {
+    background-image: url(./event-2-img.jpg);
+}
+#event_box_3 {
+    background-image: url(./event-3-img.jpg);
+}
+#event_box_4 {
+    background-image: url(./event-4-img.jpg);
+}
+#event_box_5 {
+    background-image: url(./event-5-img.jpg);
 }
 .event_image{
     width: 40%;
@@ -431,14 +448,40 @@ body {
     background-position: -390px;
     transition: ease all .5s;
 }
+
 @media screen and (max-width: 780px){
     .event_image{
         background-image: url(https://i0.wp.com/css-tricks.com/wp-content/uploads/2022/03/tailwind-wordpress.jpg?w=1200&ssl=1);
         background-position-x:-200px;
         background-position-y:-80px;
-        height: 200px;
+        height: 300px;
         width: 100%;
         flex: 100%;
+    }
+    #event_image_1 {
+        background-image: url(./event-1-img.jpg);
+        background-repeat: no-repeat;
+        background-position: -300px -120px;
+    }
+    #event_image_2_upper {
+        background-image: url(./event-2-img.jpg);
+        background-repeat: no-repeat;
+        background-position: -50px -120px;
+    }
+    #event_image_3 {
+        background-image: url(./event-3-img.jpg);
+        background-repeat: no-repeat;
+    }
+    #event_image_4_upper {
+        background-image: url(./event-4-img.jpg);
+        background-size: 800px;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    #event_image_5 {
+        background-image: url(./event-5-img.jpg);
+        background-repeat: no-repeat;
+        background-position: -500px -200px;
     }
     .event_description{
         width: 100%;
@@ -479,6 +522,37 @@ body {
     .event_box {
         margin-bottom: 60px;
     }
+}
+@media screen and (max-width: 450px){
+    #event_image_1 {
+        background-image: url(./event-1-img.jpg);
+        background-repeat: no-repeat;
+        background-size: 600px;
+        background-position: center;
+    }
+    #event_image_2_upper {
+        background-image: url(./event-2-img.jpg);
+        background-size: 500px;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    #event_image_3 {
+        background-image: url(./event-3-img.jpg);
+        background-repeat: no-repeat;
+    }
+    #event_image_4_upper {
+        background-image: url(./event-4-img.jpg);
+        background-size: 800px;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    #event_image_5 {
+        background-image: url(./event-5-img.jpg);
+        background-repeat: no-repeat;
+        background-size: 700px;
+        background-position: center;
+    }
+    
 }
 /* -------------------------------------------------------------------------ABOUT PAGE------ */
 

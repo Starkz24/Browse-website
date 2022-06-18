@@ -154,6 +154,23 @@ body {
     aspect-ratio: 1;
     transition: ease all .5s;
     box-shadow: var(--box_shadow_2);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#event_img_1 {
+    background-image: url(../assets/event-1-img-square.jpg);
+}
+#event_img_2 {
+    background-image: url(../assets/event-2-img-square.jpg);
+}
+#event_img_3 {
+    background-image: url(../assets/event-3-img-square.jpg);
+}
+#event_img_4 {
+    background-image: url(../assets/event-4-img-square.jpg);
+}
+#event_img_5 {
+    background-image: url(../assets/event-5-img-square.jpg);
 }
 .text{
     flex: 100%;
