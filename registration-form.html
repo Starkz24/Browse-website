@@ -34,7 +34,6 @@
       <div id="navbar_button_box_desktop">
         <button type="button" class="menu_button" id="about_btn">About</button>
         <button type="button" class="menu_button" id="events_btn">Events</button>
-        <!-- <button type="button" class="menu_button" id="contact_btn">Contact</button> -->
         <button type="button" class="register_button gradient_button" id="register_btn_nav">Register</button>
       </div>
       <div class="menu-wrap">
@@ -49,7 +48,6 @@
                 <li><a href="/registration-form.html">Register</a></li>
                 <li><a href="/about-page.html">About</a></li>
                 <li><a href="/events_page.html">Events</a></li>
-                <!-- <li><a href="#">Contact</a></li> -->
               </ul>
             </div>
           </div>
@@ -60,7 +58,8 @@
       <div class="container_1">
         <div class="title">Registration</div>
         <div class="content">
-          <form action="https://gmail.us4.list-manage.com/subscribe/post?u=5415ad50ca20dd94a8d0798ab&amp;id=e77a9584d8"
+          <!-- ---------------------------------put form action here -->
+          <form action="#"
             method="post">
             <div class="user-details">
               <div class="input-box">
@@ -81,7 +80,16 @@
               </div>
               <div class="input-box">
                 <span class="details">Semester</span>
-                <input type="number" placeholder="Enter your Semester" min="1" max="8" required>
+                <select class="details" id="semester" name="semester" required>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                  <option value="6">6</option>
+                  <option value="7">7</option>
+                  <option value="8">8</option>
+                </select>
               </div>
 
             </div>
@@ -89,29 +97,25 @@
               <div>
                 <span class="subheader">EVENTS :</span>
                 <div id="options">
-                  <ul style="list-style: none;">
-                    <li><input type="checkbox" style="margin-right: 10px" value="1" name="group[68417][1]"
-                        id="mce-group[68417]-68417-0"><label for="mce-group[68417]-68417-0">Byte Surge</label></li>
-                    <li><input type="checkbox" style="margin-right: 10px" value="2" name="group[68417][2]"
-                        id="mce-group[68417]-68417-1"><label for="mce-group[68417]-68417-1">Cyber Etymology</label></li>
-                    <li><input type="checkbox" style="margin-right: 10px" value="4" name="group[68417][4]"
-                        id="mce-group[68417]-68417-2"><label for="mce-group[68417]-68417-2">Life Extensions</label></li>
-                    <li><input type="checkbox" style="margin-right: 10px" value="8" name="group[68417][8]"
-                        id="mce-group[68417]-68417-3"><label for="mce-group[68417]-68417-3">Mind Snare</label></li>
-                    <li><input type="checkbox" style="margin-right: 10px" value="16" name="group[68417][16]"
-                        id="mce-group[68417]-68417-4"><label for="mce-group[68417]-68417-4">Prastuti</label></li>
-                  </ul>
+                  <ul style="list-style: none;" required>
+                    <li><input type="checkbox" style="margin-right: 10px" required value="1" name="checkbox"
+                        id="event_1_checkbox" checked><label for="event_1_checkbox">Byte Surge</label></li>
+                    <li><input type="checkbox" style="margin-right: 10px" required value="2" name="checkbox"
+                        id="event_2_checkbox" checked><label for="event_2_checkbox">Cyber Etymology</label></li>
+                    <li><input type="checkbox" style="margin-right: 10px" required value="4" name="checkbox"
+                        id="event_3_checkbox" checked><label for="event_3_checkbox">Life Extensions</label></li>
+                    <li><input type="checkbox" style="margin-right: 10px" required value="8" name="checkbox"
+                        id="event_4_checkbox" checked><label for="event_4_checkbox">Mind Snare</label></li>
+                    <li><input type="checkbox" style="margin-right: 10px" required value="16" name="checkbox"
+                        id="event_5_checkbox" checked><label for="event_5_checkbox">Prastuti</label></li>
+                  </ul> 
                 </div>
               </div>
             </div>
-            <div class="button">
+            <div class="button" onclick="check_checkboxes();">
               <input type="submit" value="Register">
             </div>
         </div>
-
-
-
-
         </form>
       </div>
 
@@ -119,22 +123,9 @@
 
   </div>
 
-  <!-- <div class="footer">
-    <div class="footer-title">
-      <h3 class="team_sark">Developed by <a href="https://sitsark.in/" target="_blank">Team SARK</a></h3>
-    </div>
-
-    <div class="logo">
-      <a href=""><i class="socail-icon fa fa-facebook"></i></a>
-      <a href=""><i class="socail-icon fa fa-twitter"></i></a>
-      <a href="https://www.instagram.com/sitsark/"> <i class="socail-icon fa fa-instagram"></i></a>
-      <a href=""><i class="socail-icon fa fa-envelope"></i></a>
-    </div>
-
-  </div> -->
-
 </body>
 
 </html>
 
 <script src="./app.js"></script>
+<script src="./registration-form.js"></script>
