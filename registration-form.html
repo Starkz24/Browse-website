@@ -1,41 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1">
-    <link rel="stylesheet" type="text/css" rel="noopener" target="_blank" href="./assets/registration-form-style.css">
-    <link rel="stylesheet" type="text/css" rel="noopener" target="_blank" href="./assets/style.css">
 
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap" rel="stylesheet">  
-    <title>Browse | Register</title>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1">
+  <link rel="stylesheet" type="text/css" rel="noopener" target="_blank" href="./assets/registration-form-style.css">
+  <link rel="stylesheet" type="text/css" rel="noopener" target="_blank" href="./assets/style.css">
+
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap" rel="stylesheet">
+
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" rel="stylesheet"
+    type='text/css'>
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <title>Browse | Register</title>
 
 </head>
+
 <body>
-    <div class="container">
-      <div class="navbar">
-        <div class="globe">
-          <script src="https://cdn.lordicon.com/xdjxvujz.js"></script>
-          <lord-icon
-              src="https://cdn.lordicon.com/gqzfzudq.json"
-              trigger="loop"
-              colors="primary:#84b3f8,secondary:#84b3f8"
-              stroke="60"
-              style="width:40px;height:40px;margin-right: 3px;z-index: 103;">
-          </lord-icon>
+  <div class="wrapper">
+    <div class="navbar">
+      <div class="globe">
+        <script src="https://cdn.lordicon.com/xdjxvujz.js"></script>
+        <lord-icon src="https://cdn.lordicon.com/gqzfzudq.json" trigger="loop"
+          colors="primary:#84b3f8,secondary:#84b3f8" stroke="60"
+          style="width:40px;height:40px;margin-right: 3px;z-index: 103;">
+        </lord-icon>
       </div>
-        <div class="browse_logo">
-            <span onclick="goToHomePage();">BROWSE</span>
-        </div>
-        <div id="navbar_button_box_desktop">
-            <button type="button" class="menu_button" id="about_btn">About</button>
-            <button type="button" class="menu_button" id="events_btn">Events</button>
-            <button type="button" class="register_button gradient_button" id="register_btn_nav">Register</button>
-        </div>
-    </div>
-    <div class="menu-wrap">
+      <div class="browse_logo">
+        <span onclick="goToHomePage();">BROWSE</span>
+      </div>
+      <div id="navbar_button_box_desktop">
+        <button type="button" class="menu_button" id="about_btn">About</button>
+        <button type="button" class="menu_button" id="events_btn">Events</button>
+        <!-- <button type="button" class="menu_button" id="contact_btn">Contact</button> -->
+        <button type="button" class="register_button gradient_button" id="register_btn_nav">Register</button>
+      </div>
+      <div class="menu-wrap">
         <input type="checkbox" class="toggler" id="menu_toggler">
-        <div class="hamburger"><div></div></div>
+        <div class="hamburger">
+          <div></div>
+        </div>
         <div class="menu">
           <div>
             <div class="menu_circle">
@@ -43,15 +49,19 @@
                 <li><a href="/registration-form.html">Register</a></li>
                 <li><a href="/about-page.html">About</a></li>
                 <li><a href="/events_page.html">Events</a></li>
+                <!-- <li><a href="#">Contact</a></li> -->
               </ul>
             </div>
           </div>
         </div>
+      </div>
     </div>
-
+    <div class="container">
+      <div class="container_1">
         <div class="title">Registration</div>
         <div class="content">
-          <form action="https://gmail.us4.list-manage.com/subscribe/post?u=5415ad50ca20dd94a8d0798ab&amp;id=e77a9584d8" method="post">
+          <form action="https://gmail.us4.list-manage.com/subscribe/post?u=5415ad50ca20dd94a8d0798ab&amp;id=e77a9584d8"
+            method="post">
             <div class="user-details">
               <div class="input-box">
                 <span class="details">Full Name</span>
@@ -71,28 +81,60 @@
               </div>
               <div class="input-box">
                 <span class="details">Semester</span>
-                <input type="number" placeholder="Enter your Semester" required min="1" max="8">
+                <input type="number" placeholder="Enter your Semester" min="1" max="8" required>
               </div>
+
+            </div>
+            <div class="container_2">
               <div>
-                 <span class = "subheader">EVENTS :</span>
+                <span class="subheader">EVENTS :</span>
                 <div id="options">
-                    <ul style="list-style: none;" ><li><input type="checkbox" style="margin-right: 10px" value="1" name="group[68417][1]" id="mce-group[68417]-68417-0"><label for="mce-group[68417]-68417-0">Byte Surge</label></li>
-                      <li><input type="checkbox" style="margin-right: 10px" value="2" name="group[68417][2]" id="mce-group[68417]-68417-1"><label for="mce-group[68417]-68417-1">Cyber Etymology</label></li>
-                      <li><input type="checkbox" style="margin-right: 10px" value="4" name="group[68417][4]" id="mce-group[68417]-68417-2"><label for="mce-group[68417]-68417-2">Life Extensions</label></li>
-                      <li><input type="checkbox" style="margin-right: 10px" value="8" name="group[68417][8]" id="mce-group[68417]-68417-3"><label for="mce-group[68417]-68417-3">Mind Snare</label></li>
-                      <li><input type="checkbox" style="margin-right: 10px" value="16" name="group[68417][16]" id="mce-group[68417]-68417-4"><label for="mce-group[68417]-68417-4">Photo Hunt</label></li>
-                    </ul>
+                  <ul style="list-style: none;">
+                    <li><input type="checkbox" style="margin-right: 10px" value="1" name="group[68417][1]"
+                        id="mce-group[68417]-68417-0"><label for="mce-group[68417]-68417-0">Byte Surge</label></li>
+                    <li><input type="checkbox" style="margin-right: 10px" value="2" name="group[68417][2]"
+                        id="mce-group[68417]-68417-1"><label for="mce-group[68417]-68417-1">Cyber Etymology</label></li>
+                    <li><input type="checkbox" style="margin-right: 10px" value="4" name="group[68417][4]"
+                        id="mce-group[68417]-68417-2"><label for="mce-group[68417]-68417-2">Life Extensions</label></li>
+                    <li><input type="checkbox" style="margin-right: 10px" value="8" name="group[68417][8]"
+                        id="mce-group[68417]-68417-3"><label for="mce-group[68417]-68417-3">Mind Snare</label></li>
+                    <li><input type="checkbox" style="margin-right: 10px" value="16" name="group[68417][16]"
+                        id="mce-group[68417]-68417-4"><label for="mce-group[68417]-68417-4">Prastuti</label></li>
+                  </ul>
                 </div>
               </div>
             </div>
             <div class="button">
               <input type="submit" value="Register">
             </div>
-          </form>
         </div>
+
+
+
+
+        </form>
       </div>
-    
+
+    </div>
+
+  </div>
+
+  <!-- <div class="footer">
+    <div class="footer-title">
+      <h3 class="team_sark">Developed by <a href="https://sitsark.in/" target="_blank">Team SARK</a></h3>
+    </div>
+
+    <div class="logo">
+      <a href=""><i class="socail-icon fa fa-facebook"></i></a>
+      <a href=""><i class="socail-icon fa fa-twitter"></i></a>
+      <a href="https://www.instagram.com/sitsark/"> <i class="socail-icon fa fa-instagram"></i></a>
+      <a href=""><i class="socail-icon fa fa-envelope"></i></a>
+    </div>
+
+  </div> -->
+
 </body>
+
 </html>
 
 <script src="./app.js"></script>

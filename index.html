@@ -1,26 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1">
     <link rel="stylesheet" type="text/css" rel="noopener" target="_blank" href="./assets/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap" rel="stylesheet">  
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap" rel="stylesheet">
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" rel="stylesheet"
+        type='text/css'>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="icon" href="/assets/globe-logo.png">
     <title>Browse 2K22 | Home</title>
 </head>
+
 <body>
-    
+
     <div class="wrapper">
 
         <div class="navbar">
             <div class="globe">
                 <script src="https://cdn.lordicon.com/xdjxvujz.js"></script>
-                <lord-icon
-                    src="https://cdn.lordicon.com/gqzfzudq.json"
-                    trigger="loop"
-                    colors="primary:#84b3f8,secondary:#84b3f8"
-                    stroke="60"
+                <lord-icon src="https://cdn.lordicon.com/gqzfzudq.json" trigger="loop"
+                    colors="primary:#84b3f8,secondary:#84b3f8" stroke="60"
                     style="width:40px;height:40px;margin-right: 3px;z-index: 103;">
                 </lord-icon>
             </div>
@@ -35,103 +39,149 @@
         </div>
         <div class="menu-wrap">
             <input type="checkbox" class="toggler" id="menu_toggler">
-            <div class="hamburger"><div></div></div>
+            <div class="hamburger">
+                <div></div>
+            </div>
             <div class="menu">
-              <div>
-                <div class="menu_circle">
-                  <ul>
-                    <li><a href="/registration-form.html">Register</a></li>
-                    <li><a href="/about-page.html">About</a></li>
-                    <li><a href="/events_page.html">Events</a></li>
-                  </ul>
+                <div>
+                    <div class="menu_circle">
+                        <ul>
+                            <li><a href="/registration-form.html">Register</a></li>
+                            <li><a href="/about-page.html">About</a></li>
+                            <li><a href="/events_page.html">Events</a></li>
+                        </ul>
+                    </div>
                 </div>
-              </div>
             </div>
         </div>
 
         <div class="section_1 landing_display">
             <h1 class="section_1_header">Technical<br>Symposium</h1>
             <p>of CSE, ISE and MCA</p>
-            <div class="illustration_1"><img class="animated" src="./assets/hero-img.png" alt="Illustration" style="height: 550px;"></div>
+            <div class="illustration_1"><img class="animated" src="./assets/hero-img.png" alt="Illustration"
+                    style="height: 550px;"></div>
 
             <div class="container_countdown">
                 <h1 id="headline_countdown">Event starts in:</h1>
-                <div id="countdown"> 
-                    <div class="countdown_element" ><span id="days"></span><br>Days</div>
-                    <div class="countdown_element countdown_element_next_line" ><span id="hours"></span><br>Hours</div>
-                    <div class="countdown_element" ><span id="minutes"></span><br>Minutes</div>
-                    <div class="countdown_element" ><span id="seconds"></span><br>Seconds</div>
+                <div id="countdown">
+                    <div class="countdown_element"><span id="days"></span><br>Days</div>
+                    <div class="countdown_element countdown_element_next_line"><span id="hours"></span><br>Hours</div>
+                    <div class="countdown_element"><span id="minutes"></span><br>Minutes</div>
+                    <div class="countdown_element"><span id="seconds"></span><br>Seconds</div>
                 </div>
-              </div>
+            </div>
         </div>
 
         <div class="section_2 events_list_display">
             <h1 class="events section_2_header">EVENTS</h1>
 
             <!--EVENT_1-->
-            <div class="event_box" id="event_box_1"> 
+            <div class="event_box" id="event_box_1">
                 <div class="event_image" id="event_image_1"></div>
                 <div class="event_description" id="event_description_1">
-                    <h1>Event One</h1>
+                    <h1>Life Extension</h1>
                     <div class="event_organiser_tag" id="event_organiser_1">
                         <span>-by TEAM SARK</span>
                     </div>
-                    <p> It is a quiz contest between different teams on topics of technology, programming and technical aspects.<br>Register in members of 2 per Team to enter in the contest and win the prizes</p>
-                    <button type="button" id="event_1_know_more" class="know_more_button gradient_button">Know More</button>
+                    <p class="font">
+                        This will be an ideal platform, where budding gamers can explore and develop their skills
+                        and use this as a
+                        good practice
+                        session.
+                    </p>
+                    <ul>
+                        <li><i class="icofont-check"></i> Gaming is a very popular frenzy and we now have
+                            hundreds of gamers.</li>
+                        <li><i class="icofont-check"></i> They need more exposure to hone their skills
+                            and compete with the best in the college. </li>
+                    </ul> <button type="button" id="event_1_know_more" class="know_more_button gradient_button">Know
+                        More</button>
                 </div>
             </div>
 
             <!--EVENT_2-->
-            <div class="event_box" id="event_box_2"> 
+            <div class="event_box" id="event_box_2">
                 <div class="event_image" id="event_image_2_upper"></div>
                 <div class="event_description" id="event_description_2">
-                    <h1>Event Two</h1>
+                    <h1>Mind Snare</h1>
                     <div class="event_organiser_tag" id="event_organiser_2">
                         <span>-by TEAM SARK</span>
                     </div>
-                    <p> It is a quiz contest between different teams on topics of technology, programming and technical aspects.<br>Register in members of 2 per Team to enter in the contest and win the prizes</p>
-                    <button type="button" id="event_2_know_more" class="know_more_button gradient_button">Know More</button>
+                    <p class="font">
+                        It is a quiz contest between different teams on topics of technology,
+                        programming and
+                        technical
+                        aspects.
+                    </p>
+                    <p>
+                        Register in members of 2 per Team to enter in the contest
+                        and win the prize
+                    </p> <button type="button" id="event_2_know_more" class="know_more_button gradient_button">Know
+                        More</button>
                 </div>
                 <div class="event_image" id="event_image_2"></div>
             </div>
 
             <!--EVENT_3-->
-            <div class="event_box" id="event_box_3"> 
+            <div class="event_box" id="event_box_3">
                 <div class="event_image" id="event_image_3"></div>
                 <div class="event_description" id="event_description_3">
-                    <h1>Event Three</h1>
+                    <h1>Cyber Etymology</h1>
                     <div class="event_organiser_tag" id="event_organiser_3">
                         <span>-by TEAM SARK</span>
                     </div>
-                    <p> It is a quiz contest between different teams on topics of technology, programming and technical aspects.<br>Register in members of 2 per Team to enter in the contest and win the prizes</p>
-                    <button type="button" id="event_3_know_more" class="know_more_button gradient_button">Know More</button>
+                    <p> It is a quiz contest between different teams on topics of technology, programming and technical
+                        aspects.<br>Register in members of 2 per Team to enter in the contest and win the prizes</p>
+                    <button type="button" id="event_3_know_more" class="know_more_button gradient_button">Know
+                        More</button>
                 </div>
             </div>
 
             <!--EVENT_4-->
-            <div class="event_box" id="event_box_4"> 
+            <div class="event_box" id="event_box_4">
                 <div class="event_image" id="event_image_4_upper"></div>
                 <div class="event_description" id="event_description_4">
-                    <h1>Event Four</h1>
+                    <h1>Byte Surge</h1>
                     <div class="event_organiser_tag" id="event_organiser_4">
                         <span>-by TEAM SARK</span>
                     </div>
-                    <p> It is a quiz contest between different teams on topics of technology, programming and technical aspects.<br>Register in members of 2 per Team to enter in the contest and win the prizes</p>
-                    <button type="button" id="event_4_know_more" class="know_more_button gradient_button">Know More</button>
+                    <p> Derivation of words from originals,
+                        it is a game of scrabble related to Computer Science
+                        and Technology.</p>
+                    <ul>
+                        <li><i class="icofont-check"></i> Register in team of trio.</li>
+                        <li><i class="icofont-check"></i> It is a game of scrabble related to Computer Science and
+                            Technology.
+                        </li>
+                        <li><i class="icofont-check"></i> During the competition 30 characters will be given to each
+                            team.</li>
+                    </ul> <button type="button" id="event_4_know_more" class="know_more_button gradient_button">Know
+                        More</button>
                 </div>
                 <div class="event_image" id="event_image_4"></div>
             </div>
 
             <!--EVENT_5-->
-            <div class="event_box" id="event_box_5"> 
+            <div class="event_box" id="event_box_5">
                 <div class="event_image" id="event_image_5"></div>
                 <div class="event_description" id="event_description_5">
-                    <h1>Event Five</h1>
+                    <h1>Prastuti</h1>
                     <div class="event_organiser_tag" id="event_organiser_5">
                         <span>-by TEAM SARK</span>
                     </div>
-                    <p> It is a quiz contest between different teams on topics of technology, programming and technical aspects.<br>Register in members of 2 per Team to enter in the contest and win the prizes</p>
-                    <button type="button" id="event_5_know_more" class="know_more_button gradient_button">Know More</button>
+                    <p class="font">
+                        Paper Presentation is all about how you put your topic or present your topic in front of the
+                        audience.
+                        They see the way you present your topic, the way you put your points,
+                        your presentation style, your language and how promptly and effectively you answer their
+                        questions.
+                    </p>
+                    <p>
+                        If you are a whiz kid when it comes to articulating an
+                        idea and stating your viewpoint. And this is your golden
+                        chance to do so.This is your platform to express yourself.
+                    </p> <button type="button" id="event_5_know_more" class="know_more_button gradient_button">Know
+                        More</button>
                 </div>
             </div>
         </div>
@@ -139,18 +189,27 @@
 
     <div class="scroll_to_top" id="scroll_to_top_btn" onclick="topFunction()" title="Go to top">
         <script src="https://cdn.lordicon.com/xdjxvujz.js"></script>
-        <lord-icon
-        src="https://cdn.lordicon.com/eflfmgmj.json"
-        trigger="hover"
-        colors="primary:#84b3f8"
-        style="width:50px;height:50px; border-radius: 100vw;box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 1);">
+        <lord-icon src="https://cdn.lordicon.com/eflfmgmj.json" trigger="hover" colors="primary:#84b3f8"
+            style="width:50px;height:50px; border-radius: 100vw;box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 1);">
         </lord-icon>
     </div>
 
     <div class="footer">
-        <h3 class="team_sark">Developed by <a href="https://sitsark.in/" target="_blank">Team SARK</a></h3>
+        <div class="footer-title">
+            <h3 class="team_sark">Developed by <a href="https://sitsark.in/" target="_blank">Team SARK</a></h3>
+        </div>
+
+        <div class="logo">
+            <a href="https://www.instagram.com/sitsark/"> <i class="socail-icon fa fa-instagram"></i></a>
+            <a href="mailto: sitsark@gmail.com"><i class="socail-icon fa fa-envelope"></i></a>
+        </div>
+
     </div>
+
+
+
 </body>
+
 </html>
 
 <script src="./app.js"></script>
