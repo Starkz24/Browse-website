@@ -375,6 +375,7 @@ body {
     transition: ease all .5s;
 }
 .event_organiser_tag > span{
+    display: none;
     font-family: 'Roboto Mono', monospace;
     font-size: 0.86rem;
     font-weight: 700;
